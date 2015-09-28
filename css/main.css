@@ -1,0 +1,22 @@
+/*Defaults*/
+body {
+    background-color: #000;
+}
+
+h1 {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Verdana";
+}
+
+p {
+	color: #fff;
+	font-size: 12px;
+    font-family: "Verdana";    
+}
+
+a {
+	color: #fff;
+	font-size: 12px;
+    font-family: "Verdana";   
+}

@@ -6,7 +6,7 @@
 }
 .lb-album li{
 	display:inline;
-	float: left;
+	float: right;
 	margin: 5px;
 	position: relative;
 }

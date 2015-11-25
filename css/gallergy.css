@@ -5,6 +5,7 @@
 	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
 }
 .lb-album li{
+	display:inline;
 	float: left;
 	margin: 5px;
 	position: relative;

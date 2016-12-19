@@ -1,0 +1,161 @@
+/* -- default -- */
+p 
+{
+	font-family:sans-serif;
+	font-size: 14px;
+}
+a 
+{
+	font-family:sans-serif;
+}
+ul 
+{
+	font-family:sans-serif;
+}
+h1 
+{
+	font-family:sans-serif;
+}
+h2 
+{
+	font-family:sans-serif;
+}
+h3 
+{
+	font-family:sans-serif;
+}
+h4 
+{
+	font-family:sans-serif;
+}
+/*Main site styles*/
+.background 
+{
+	background-color: #000;
+}
+.main 
+{
+	margin:20px; 
+	width:auto;
+}
+/*Top navigation styles*/
+.topNav 
+{
+	display:block;
+	text-align: center;
+	width:auto;
+}
+    .topNav ul li 
+    {
+    	list-style: none;
+    	display:block;
+    	float:left;
+    	padding: 10px;
+    }
+    .topNav ul li a 
+    {
+    	text-decoration: none;
+    }
+    /*  Hide mobile menu items */
+    li.genre:nth-of-type(11),
+    .genre:nth-of-type(12),
+    .genre:nth-of-type(13),
+    .genre:nth-of-type(14),
+    .genre:nth-of-type(15){
+    	display: none;
+    }
+    
+.navLink a 
+{ 
+	color:#fff; 
+	background-image: image();
+}
+    .navLink a:hover
+    {
+    	color: #D1D0CE;
+    }
+    .navLink a:active
+    {
+    	color: #C11B17
+    }
+    .navLink a:visited
+    {
+
+    }
+/*Review body styles*/
+.reviewBodyCopyRight 
+{
+	display:block; 
+	float:right; 
+	color:#fff; 
+	width:50%; 
+	padding: 5px;
+}
+.reviewBodyCopyLeft 
+{
+	display:block; 
+	float:left; 
+	color:#fff;
+	width:50%; 
+	padding: 5px;
+}
+.reviewBodyImageRight 
+{
+	display:block; 
+	float:rightwidth:50%; 
+	padding: 5px;}
+.reviewBodyImageLeft 
+{
+	display: block; 
+	float: right;
+	width:50%; 
+	padding: 5px;}
+/* Mobile layout adjustments */
+@media only screen and (max-width : 640px) {
+    /* Defaults */
+
+    h1 {
+        color: #fff;
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 0.8em;  
+    }
+
+    a {
+        font-size: 0.8em;  
+    }
+
+    /* New navigation */
+    .topNav {
+        display: block;
+        position: absolute; 
+        top: 0;
+        height: 2em;
+        width: 100%; 
+    }
+
+        /* Hide Desktop menu items */
+        li.genre:nth-of-type(1),
+          .genre:nth-of-type(2),
+          .genre:nth-of-type(3),
+          .genre:nth-of-type(4),
+          .genre:nth-of-type(5),
+          .genre:nth-of-type(6),
+          .genre:nth-of-type(7),
+          .genre:nth-of-type(8),
+          .genre:nth-of-type(9){
+            display: none;
+        }
+        
+        /*  Display mobile menu items */
+        li.genre:nth-of-type(11),
+          .genre:nth-of-type(12),
+          .genre:nth-of-type(13),
+          .genre:nth-of-type(14),
+          .genre:nth-of-type(15){
+            display: inline-block;
+        }
+
+}

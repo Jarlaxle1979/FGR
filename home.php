@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <html>
-	<?php include 'head.php';?>
+	<head>
+		<title>Free Game Reviews</title>
+		<script src="https://use.fontawesome.com/af584466b2.js"></script>
+		<link rel="icon" href="media/images/fgr.ico" type="image/ico" />
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
+		<link rel="stylesheet" type="text/css" href="styles/gallery.css">
+	</head>
 	<body class="background">
 	    <div class="main">
 		<!-- Top navigation-->
-			<?php include 'topNav.php';?>        
+			<div class="topNav">
+				<div class="icon">
+	    			<img src="media/images/fgr.png" />
+    			</div>
+			    <ul class="genre">
+					<li class="genre"><a href="action.php">Action</a></li>
+					<li class="genre"><a href="adventure.php">Adventure</a></li>
+					<li class="genre"><a href="casual.php">Casual</a></li>
+					<li class="genre"><a href="indie.php">Indie</a></li>
+					<li class="genre"><a href="mmo.php">Massively Multiplayer</a></li>
+					<li class="genre"><a href="racing.php">Racing</a></li>
+					<li class="genre"><a href="rpg.php">RPG</a></li>
+					<li class="genre"><a href="simulation.php">Simulation</a></li>
+					<li class="genre"><a href="sports.php">Sports</a></li>
+				</ul>
+			</div>
+			<div class="intro">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultricies, massa at porttitor sodales, nibh turpis suscipit elit, ut bibendum urna nisl euismod eros. Quisque convallis finibus turpis, eleifend consequat nibh accumsan vitae. Donec maximus congue turpis, vitae rhoncus justo auctor sed. Fusce imperdiet faucibus nisl vitae sodales. Ut velit ante, vulputate quis arcu vitae, sodales convallis dolor. Aenean nunc neque, varius ac pellentesque a, vehicula at odio. Aliquam sit amet mattis risus. Ut at iaculis lorem. Aliquam mattis lorem ac erat semper, nec laoreet nisi iaculis. Phasellus blandit ac metus a rhoncus. Proin arcu lectus, egestas vel bibendum sed, accumsan eu magna. Ut pretium, ante ac lobortis tempor, augue quam dictum nisl, eu iaculis tortor ante non lectus. Duis augue tortor, bibendum lobortis dui sagittis, auctor pellentesque massa. Aliquam sagittis sit amet nunc ac blandit. Nunc eget quam sit amet arcu efficitur ultrices. Morbi at pulvinar nisl.</p>
+				<p>Donec mollis felis leo, in dictum enim commodo non. Etiam sit amet facilisis ex. Donec diam massa, viverra vitae pretium quis, varius quis sem. Nulla vehicula neque ut sem aliquet imperdiet. Nulla porttitor nibh eu mollis facilisis. Nunc a nulla eget mauris gravida volutpat at id nisl. Nam vestibulum porta nunc quis eleifend. Donec ut sodales orci. Nulla nec pulvinar nulla. Mauris interdum in metus ac pharetra. Vestibulum accumsan libero neque, ut mattis nibh tincidunt vel.</p>
+			</div>
             <!--Review body-->
             <div class="reviewBodyCopyLeft">
                 <h1>Game 1</h1>
@@ -21,48 +46,178 @@
             </div>
             <div class="reviewBodyImageRight">
 				<h1>Elite:Dangerous</h1>
-				<ul class="lb-album">
-					<li>
-						<a href="#image-1"><img src="C:\Users\Jarlaxle1979\Documents\Website\media\images\thumbs\EliteDangerousScreenShot1.jpg" alt="image01"><span>Space station</span></a>
-						<div class="lb-overlay" id="image-1">
-							<img src="C:\Users\Jarlaxle1979\Documents\Website\media\images\EliteDangerousScreenShot1.jpg" alt="image01" />
-						<div>
-							<h3>Space station</h3>
-							<p>One of a number of different space station designs</p>
-							<a href="#image-10" class="lb-prev">Prev</a>
-							<a href="#image-2" class="lb-next">Next</a>
-						</div>
-						<a href="#page" class="lb-close">x Close</a>
-					</li>
-					<li>
-						<a href="#image-1"><img src="C:\Users\Jarlaxle1979\Documents\Website\media\images\thumbs\EliteDangerousScreenShot2.jpg" alt="image01"><span>Cockpit view</span></a>
-						<div class="lb-overlay" id="image-1">
-							<img src="C:\Users\Jarlaxle1979\Documents\Website\media\images\EliteDangerousScreenShot2.jpg" alt="image01" />
-						<div>
-							<h3>Cockpit view</h3>
-							<p>View inside the Vulture</p>
-							<a href="#image-10" class="lb-prev">Prev</a>
-							<a href="#image-2" class="lb-next">Next</a>
-						</div>
-						<a href="#page" class="lb-close">x Close</a>
-					</li>
-				</ul>
-				<div id="slider">
-					<!-- Sildes -->
-					<img id="one" src="C:\Users\Jarlaxle1979\Documents\Website\media\images\EliteDangerousScreenShot1.jpg" />
-					<img id="two" src="C:\Users\Jarlaxle1979\Documents\Website\media\images\EliteDangerousScreenShot2.jpg" />
-					<img id="three" src="C:\Users\Jarlaxle1979\Documents\Website\media\images\EliteDangerousScreenShot3.jpg" />
-					<img id="four" src="C:\Users\Jarlaxle1979\Documents\Website\media\images\EliteDangerousScreenShot4.jpg" />
-					<img id="five" src="C:\Users\Jarlaxle1979\Documents\Website\media\images\EliteDangerousScreenShot5.jpg" />
-					<!-- Links for the slides! -->
-					<ul>
-						<li><a href="#one"></a></li>
-						<li><a href="#two"></a></li>
-						<li><a href="#three"></a></li>
-						<li><a href="#four"></a></li>
-						<li><a href="#five"></a></li>
-					</ul>
-				</div>
+				<!-- GALLERY THUMBNAILS -->
+				<div class="thumb-grid">
+					<!-- THUMB 1 -->
+    				<a href="#id01">
+      					<div class="thumb" style="background-image: url('media/images/test.jpg');">
+        					<div class="caption">
+          						<h2>Title</h2>
+          						<p>Description test</p>
+        					</div>
+      					</div>
+    				</a>
+    				<!-- THUMB 2 -->
+    				<a href="#id02">
+      					<div class="thumb" style="background-image: url('media/images/test2.jpg');">
+        					<div class="caption">
+          						<h2>Title</h2>
+          						<p>Description test</p>
+        					</div>
+      					</div>
+    				</a>
+    				<!-- THUMB 3 -->
+    				<a href="#id03">
+      					<div class="thumb" style="background-image: url('media/images/test3.jpg');">
+        					<div class="caption">
+          						<h2>Title</h2>
+          						<p>Description test</p>
+        					</div>
+      					</div>
+    				</a>
+    				<!-- THUMB 4 -->
+    				<a href="#id04">
+      					<div class="thumb" style="background-image: url('media/images/test.jpg');">
+        					<div class="caption">
+          						<h2>Title</h2>
+          						<p>Description test</p>
+        					</div>
+      					</div>
+    				</a>
+    				<!-- THUMB 5 -->
+    				<a href="#id05">
+      					<div class="thumb" style="background-image: url('media/images/test2.jpg');">
+        					<div class="caption">
+          						<h2>Title</h2>
+          						<p>Description test</p>
+        					</div>
+      					</div>
+    				</a>
+    				<!-- THUMB 6 -->
+    				<a href="#id06">
+      					<div class="thumb" style="background-image: url('media/images/test3.jpg');">
+        					<div class="caption">
+          						<h2>Title</h2>
+          						<p>Description test</p>
+        					</div>
+      					</div>
+    				</a>
+  				</div>
+				<!-- GALLERY POPUP -->
+				<!-- POPUP 1 -->
+  				<div id="id01" class="popup">
+    				<a href="#">
+      					<img src="media/images/closebtn.png" class="closebtn" />
+    				</a>
+    				<div class="gallery">
+      					<img src="media/images/test.jpg" class="image" />
+    				</div>
+    				<div class="image-info">
+      					<h3>Title</h3>
+      					<p>Description test</p>
+      					<a href="#" >
+        					<img src="backbtn.png" class="backbtn" >
+      					</a>
+      					<a href="#id02" >
+        					<img src="media/images/nextbtn.png" class="nextbtn" />
+      					</a>
+					</div>
+  				</div>
+  				<!-- POPUP 2 -->
+				<div id="id02" class="popup" >
+    				<a href="#">
+      					<img src="media/images/closebtn.png" class="closebtn" />
+					</a>
+    				<div class="gallery">
+      					<img src="media/images/test2.jpg" class="image" />
+    				</div>
+    				<div class="image-info">
+      					<h3>Title</h3>
+      					<p>Description test</p>
+      					<a href="#id01">
+        					<img src="backbtn.png" class="backbtn" >
+      					</a>
+      					<a href="#id03">
+        					<img src="media/images/nextbtn.png" class="nextbtn" />
+      					</a>
+    				</div>
+  				</div>
+  				<!-- POPUP 3 -->
+  				<div id="id03" class="popup" >
+    				<a href="#">
+  						<img src="media/images/closebtn.png" class="closebtn" />
+    				</a>
+    				<div class="gallery">
+      					<img src="media/images/test3.jpg" class="image" />
+    				</div>
+    				<div class="image-info">
+	      				<h3>Title</h3>
+    	  				<p>Description test</p>
+      					<a href="#id02">
+        					<img src="backbtn.png" class="backbtn" >
+      					</a>
+      					<a href="#" >
+	        				<img src="media/images/nextbtn.png" class="nextbtn" />
+    	  				</a>
+    				</div>
+	  			</div>
+	  			<!-- POPUP 4 -->
+  				<div id="id04" class="popup">
+    				<a href="#">
+      					<img src="media/images/closebtn.png" class="closebtn" />
+    				</a>
+    				<div class="gallery">
+      					<img src="media/images/test.jpg" class="image" />
+    				</div>
+    				<div class="image-info">
+      					<h3>Title</h3>
+      					<p>Description test</p>
+      					<a href="#" >
+        					<img src="backbtn.png" class="backbtn" >
+      					</a>
+      					<a href="#id02" >
+        					<img src="media/images/nextbtn.png" class="nextbtn" />
+      					</a>
+					</div>
+  				</div>
+  				<!-- POPUP 5 -->
+				<div id="id05" class="popup" >
+    				<a href="#">
+      					<img src="media/images/closebtn.png" class="closebtn" />
+					</a>
+    				<div class="gallery">
+      					<img src="media/images/test2.jpg" class="image" />
+    				</div>
+    				<div class="image-info">
+      					<h3>Title</h3>
+      					<p>Description test</p>
+      					<a href="#id01">
+        					<img src="backbtn.png" class="backbtn" >
+      					</a>
+      					<a href="#id03">
+        					<img src="media/images/nextbtn.png" class="nextbtn" />
+      					</a>
+    				</div>
+  				</div>
+  				<!-- POPUP 6 -->
+  				<div id="id06" class="popup" >
+    				<a href="#">
+  						<img src="media/images/closebtn.png" class="closebtn" />
+    				</a>
+    				<div class="gallery">
+      					<img src="media/images/test3.jpg" class="image" />
+    				</div>
+    				<div class="image-info">
+	      				<h3>Title</h3>
+    	  				<p>Description test</p>
+      					<a href="#id02">
+        					<img src="backbtn.png" class="backbtn" >
+      					</a>
+      					<a href="#" >
+	        				<img src="media/images/nextbtn.png" class="nextbtn" />
+    	  				</a>
+    				</div>
+	  			</div>					
 			</div>
 		</div>
 	</body>

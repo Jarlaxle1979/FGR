@@ -31,7 +31,7 @@
 				<p>Donec mollis felis leo, in dictum enim commodo non. Etiam sit amet facilisis ex. Donec diam massa, viverra vitae pretium quis, varius quis sem. Nulla vehicula neque ut sem aliquet imperdiet. Nulla porttitor nibh eu mollis facilisis. Nunc a nulla eget mauris gravida volutpat at id nisl. Nam vestibulum porta nunc quis eleifend. Donec ut sodales orci. Nulla nec pulvinar nulla. Mauris interdum in metus ac pharetra. Vestibulum accumsan libero neque, ut mattis nibh tincidunt vel.</p>
 			</div>
             <!--Review body-->
-            <div class="reviewBodyCopyLeft">
+            <div class="reviewBodyCopy">
                 <h1>Game 1</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non consequat mauris, at aliquam ante. Cras ultrices arcu velit, nec molestie erat mattis sit amet. Phasellus eget ligula sit amet sapien fringilla feugiat at in leo. Donec ut lorem eget tellus congue tempor. Donec placerat, metus sed eleifend vulputate, lorem nibh ultrices dolor, nec mollis nibh ex vel velit. Aenean sit amet lectus sapien. Aliquam a pharetra mauris. Phasellus et risus.
                 </p>
@@ -44,64 +44,78 @@
                 <p>Proin hendrerit elementum risus, nec iaculis tortor scelerisque ac. Curabitur non scelerisque risus. Aenean laoreet ornare magna, vitae eleifend tellus pellentesque vel. Maecenas eu ligula tincidunt risus sagittis condimentum. Curabitur et ornare dui. Maecenas blandit mi sit amet risus gravida aliquet. Mauris tincidunt placerat ante vel volutpat. Suspendisse et tortor at sapien auctor suscipit. Suspendisse quis iaculis risus, eget pretium massa. Nam nulla augue, euismod in sapien et, feugiat rhoncus quam. Phasellus pellentesque, mi ut congue posuere, dui mi viverra nisi, et scelerisque mauris neque non sem. Sed tincidunt dignissim dui aliquet tincidunt. Quisque et massa non mauris sodales facilisis. Morbi fermentum ipsum nec purus tempus posuere. Vivamus ut odio quis lectus lacinia euismod eget id neque.
                 </p>
             </div>
-            <div class="reviewBodyImageRight">
+            <div class="reviewBodyImage">
 				<h1>Elite:Dangerous</h1>
 				<!-- GALLERY THUMBNAILS -->
 				<div class="thumb-grid">
-					<!-- THUMB 1 -->
-    				<a href="#id01">
-      					<div class="thumb" style="background-image: url('media/images/test.jpg');">
-        					<div class="caption">
-          						<h2>Title</h2>
-          						<p>Description test</p>
-        					</div>
-      					</div>
-    				</a>
-    				<!-- THUMB 2 -->
-    				<a href="#id02">
-      					<div class="thumb" style="background-image: url('media/images/test2.jpg');">
-        					<div class="caption">
-          						<h2>Title</h2>
-          						<p>Description test</p>
-        					</div>
-      					</div>
-    				</a>
-    				<!-- THUMB 3 -->
-    				<a href="#id03">
-      					<div class="thumb" style="background-image: url('media/images/test3.jpg');">
-        					<div class="caption">
-          						<h2>Title</h2>
-          						<p>Description test</p>
-        					</div>
-      					</div>
-    				</a>
-    				<!-- THUMB 4 -->
-    				<a href="#id04">
-      					<div class="thumb" style="background-image: url('media/images/test.jpg');">
-        					<div class="caption">
-          						<h2>Title</h2>
-          						<p>Description test</p>
-        					</div>
-      					</div>
-    				</a>
-    				<!-- THUMB 5 -->
-    				<a href="#id05">
-      					<div class="thumb" style="background-image: url('media/images/test2.jpg');">
-        					<div class="caption">
-          						<h2>Title</h2>
-          						<p>Description test</p>
-        					</div>
-      					</div>
-    				</a>
-    				<!-- THUMB 6 -->
-    				<a href="#id06">
-      					<div class="thumb" style="background-image: url('media/images/test3.jpg');">
-        					<div class="caption">
-          						<h2>Title</h2>
-          						<p>Description test</p>
-        					</div>
-      					</div>
-    				</a>
+					<ul>
+						<!-- THUMB 1 -->
+						<li>
+		    				<a href="#id01">
+		      					<div class="thumb" style="background-image: url('media/images/test.jpg');">
+		        					<div class="caption">
+		          						<h2>Title</h2>
+		          						<p>Description test</p>
+		        					</div>
+		      					</div>
+		    				</a>
+	    				</li>
+    					<!-- THUMB 2 -->
+    					<li>
+		    				<a href="#id02">
+		      					<div class="thumb" style="background-image: url('media/images/test2.jpg');">
+		        					<div class="caption">
+		          						<h2>Title</h2>
+		          						<p>Description test</p>
+		        					</div>
+		      					</div>
+		    				</a>
+	    				</li>
+    					<!-- THUMB 3 -->
+    					<li>
+		    				<a href="#id03">
+		      					<div class="thumb" style="background-image: url('media/images/test3.jpg');">
+		        					<div class="caption">
+		          						<h2>Title</h2>
+		          						<p>Description test</p>
+		        					</div>
+		      					</div>
+		    				</a>
+	    				</li>
+    					<!-- THUMB 4 -->
+    					<li>
+		    				<a href="#id04">
+		      					<div class="thumb" style="background-image: url('media/images/test.jpg');">
+		        					<div class="caption">
+		          						<h2>Title</h2>
+		          						<p>Description test</p>
+		        					</div>
+		      					</div>
+		    				</a>
+						</li>
+						<li>
+		    				<!-- THUMB 5 -->
+		    				<a href="#id05">
+		      					<div class="thumb" style="background-image: url('media/images/test2.jpg');">
+		        					<div class="caption">
+		          						<h2>Title</h2>
+		          						<p>Description test</p>
+		        					</div>
+		      					</div>
+		    				</a>
+	    				</li>
+	    				<!-- THUMB 6 -->
+	    				<li>
+		    				<a href="#id06">
+		      					<div class="thumb" style="background-image: url('media/images/test3.jpg');">
+		        					<div class="caption">
+		          						<h2>Title</h2>
+		          						<p>Description test</p>
+		        					</div>
+		      					</div>
+		    				</a>
+	    				</li>
+    				</ul>
   				</div>
 				<!-- GALLERY POPUP -->
 				<!-- POPUP 1 -->
@@ -116,7 +130,7 @@
       					<h3>Title</h3>
       					<p>Description test</p>
       					<a href="#" >
-        					<img src="backbtn.png" class="backbtn" >
+        					<img src="media/images/backbtn.png" class="backbtn" >
       					</a>
       					<a href="#id02" >
         					<img src="media/images/nextbtn.png" class="nextbtn" />
@@ -135,7 +149,7 @@
       					<h3>Title</h3>
       					<p>Description test</p>
       					<a href="#id01">
-        					<img src="backbtn.png" class="backbtn" >
+        					<img src="media/images/backbtn.png" class="backbtn" >
       					</a>
       					<a href="#id03">
         					<img src="media/images/nextbtn.png" class="nextbtn" />
@@ -154,9 +168,9 @@
 	      				<h3>Title</h3>
     	  				<p>Description test</p>
       					<a href="#id02">
-        					<img src="backbtn.png" class="backbtn" >
+        					<img src="media/images/backbtn.png" class="backbtn" >
       					</a>
-      					<a href="#" >
+      					<a href="#id04" >
 	        				<img src="media/images/nextbtn.png" class="nextbtn" />
     	  				</a>
     				</div>
@@ -173,9 +187,9 @@
       					<h3>Title</h3>
       					<p>Description test</p>
       					<a href="#" >
-        					<img src="backbtn.png" class="backbtn" >
+        					<img src="media/images/backbtn.png" class="backbtn" >
       					</a>
-      					<a href="#id02" >
+      					<a href="#id05" >
         					<img src="media/images/nextbtn.png" class="nextbtn" />
       					</a>
 					</div>
@@ -192,9 +206,9 @@
       					<h3>Title</h3>
       					<p>Description test</p>
       					<a href="#id01">
-        					<img src="backbtn.png" class="backbtn" >
+        					<img src="media/images/backbtn.png" class="backbtn" >
       					</a>
-      					<a href="#id03">
+      					<a href="#id06">
         					<img src="media/images/nextbtn.png" class="nextbtn" />
       					</a>
     				</div>
@@ -211,7 +225,7 @@
 	      				<h3>Title</h3>
     	  				<p>Description test</p>
       					<a href="#id02">
-        					<img src="backbtn.png" class="backbtn" >
+        					<img src="media/images/backbtn.png" class="backbtn" >
       					</a>
       					<a href="#" >
 	        				<img src="media/images/nextbtn.png" class="nextbtn" />

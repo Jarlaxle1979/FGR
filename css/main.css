@@ -33,7 +33,7 @@ h4
     {
         display:block;
         text-align: center;
-        width: 80%;
+        width: 100%;
         float: left;
     }
     .topNav ul
@@ -74,12 +74,16 @@ h4
 /*Main site styles*/
 .background 
     {
-    	background-color: hsl(0, 0%, 100%);
+    	background: url("edbg.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 .main 
     {
-    	margin:4%; 
-    	width: 100%;
+    	margin: 2% 10% 2% 10%; 
+    	max-width: 100%;
+        background-color: hsl(0, 0%, 100%);
+        opacity: 0.9;
     }
 .icon
     {
@@ -100,36 +104,33 @@ h4
         width: 80%;
     }
 /*Review body styles*/
-.reviewBodyCopyRight 
+.reviewBodyCopy 
     {
     	display:block; 
-    	float:right; 
     	color: hsl(0, 0%, 25%); 
-    	width:45%; 
-    	padding: 2em;
+    	width:80%; 
+    	padding: 2em 2em 0em 2em;
     }
-.reviewBodyCopyLeft 
-    {
-    	display:block; 
-    	float:left; 
-    	color: hsl(0, 0%, 25%);
-    	width:45%; 
-    	padding: 2em;
-    }
-.reviewBodyImageRight 
+.reviewBodyImage
     {
       	display:block; 
-    	float:right;
-        width:45%; 
-    	padding: 2em;
+        width:80%;
+    	padding: 0em 2em 2em 2em;
     }
-.reviewBodyImageLeft 
-    {
-    	display: block; 
-    	float: right;
-    	width:45%; 
-    	padding: 2em;
-    }
+    .reviewBodyImage ul
+        {
+            width: 100%;
+            margin-left: -2em;
+            margin-right: auto; 
+        }
+        .reviewBodyImage ul li 
+        {
+            list-style-type: none;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            display: inline-block;
+        }
 /* Mobile layout adjustments */
 @media only screen and (max-width : 640px) {
     /* Defaults */

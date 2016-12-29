@@ -74,7 +74,7 @@ h4
 /*Main site styles*/
 .background 
     {
-    	background: url("edbg.jpg");
+    	background: url("../media/images/edbg.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
     }

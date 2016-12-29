@@ -6,6 +6,15 @@
 		<link rel="icon" href="media/images/fgr.ico" type="image/ico" />
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/gallery.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script> 
+    $(document).ready(function(){
+        $("#flip").click(function(){
+            $("#panel").slideToggle("slow");
+        });
+    });
+    </script>
 	</head>
 	<body class="background">
 	    <div class="main">
@@ -35,7 +44,7 @@
       <div class="reviewBodyCopy">
         <h1>Elite:Dangerous</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non consequat mauris, at aliquam ante. Cras ultrices arcu velit, nec molestie erat mattis sit amet. Phasellus eget ligula sit amet sapien fringilla feugiat at in leo. Donec ut lorem eget tellus congue tempor. Donec placerat, metus sed eleifend vulputate, lorem nibh ultrices dolor, nec mollis nibh ex vel velit. Aenean sit amet lectus sapien. Aliquam a pharetra mauris. Phasellus et risus......</p>
-        <div id="toggle">
+        <div id="panel">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non consequat mauris, at aliquam ante. Cras ultrices arcu velit, nec molestie erat mattis sit amet. Phasellus eget ligula sit amet sapien fringilla feugiat at in leo. Donec ut lorem eget tellus congue tempor. Donec placerat, metus sed eleifend vulputate, lorem nibh ultrices dolor, nec mollis nibh ex vel velit. Aenean sit amet lectus sapien. Aliquam a pharetra mauris. Phasellus et risus.
           </p>
           <p>Vestibulum eros odio, bibendum quis magna vel, egestas euismod erat. Ut facilisis pharetra fringilla. Mauris at viverra elit. Ut semper massa quis tincidunt dapibus. Aliquam dignissim tempus sapien, ac fermentum nibh. Donec neque diam, rutrum a mi vitae, aliquet fermentum mi. Ut vitae malesuada neque, at fermentum ligula. Etiam tincidunt, nisi sit amet consectetur tristique, enim mi elementum lacus, vitae pharetra quam nibh ac metus. Maecenas vel rutrum diam. Ut maximus eu mauris non imperdiet. Integer in leo feugiat elit commodo consectetur non at purus. Nunc id odio ut velit tristique fermentum.
@@ -236,7 +245,8 @@
               </div>
             </div>
           </div>
-        </div>        
+        </div>
+        <div id="flip">Show full review</div>       
       </div>
 	</body>
 </html>
